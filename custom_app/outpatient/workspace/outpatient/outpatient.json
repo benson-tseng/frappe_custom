@@ -1,0 +1,37 @@
+{
+ "category": "Modules",
+ "charts": [
+  {
+   "chart_name": "outpatient_chart",
+   "label": "outpatient chart"
+  }
+ ],
+ "creation": "2021-08-13 16:25:38.156572",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "healthcare",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "outpatient",
+ "links": [],
+ "modified": "2021-08-20 23:16:34.464203",
+ "modified_by": "Administrator",
+ "module": "Outpatient",
+ "name": "outpatient",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "outpatient doctype",
+   "link_to": "outpatient_doc",
+   "type": "DocType"
+  }
+ ]
+}

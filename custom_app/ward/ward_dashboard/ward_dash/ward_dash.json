@@ -1,0 +1,21 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "ward_chart",
+   "width": "Full"
+  }
+ ],
+ "creation": "2021-08-13 16:50:24.025703",
+ "dashboard_name": "ward_dash",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2021-08-20 23:35:26.244235",
+ "modified_by": "Administrator",
+ "module": "Ward",
+ "name": "ward_dash",
+ "owner": "Administrator"
+}

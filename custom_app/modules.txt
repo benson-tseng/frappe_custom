@@ -1,1 +1,3 @@
 Custom App
+Ward
+Outpatient

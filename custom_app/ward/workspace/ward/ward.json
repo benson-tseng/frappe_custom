@@ -1,0 +1,37 @@
+{
+ "category": "Modules",
+ "charts": [
+  {
+   "chart_name": "ward_chart",
+   "label": "ward chart"
+  }
+ ],
+ "creation": "2021-08-13 16:40:41.767326",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "healthcare",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "ward",
+ "links": [],
+ "modified": "2021-08-20 23:16:39.036272",
+ "modified_by": "Administrator",
+ "module": "Ward",
+ "name": "ward",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "ward doctype",
+   "link_to": "ward_doc",
+   "type": "DocType"
+  }
+ ]
+}

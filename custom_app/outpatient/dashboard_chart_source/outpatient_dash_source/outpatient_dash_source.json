@@ -1,0 +1,13 @@
+{
+    "creation": "2021-08-13 17:20:14.299404",
+    "docstatus": 0,
+    "doctype": "Dashboard Chart Source",
+    "idx": 0,
+    "modified": "2021-08-13 17:20:14.299404",
+    "modified_by": "Administrator",
+    "module": "Outpatient",
+    "name": "outpatient_dash_source",
+    "owner": "Administrator",
+    "source_name": "outpatient_dash_source",
+    "timeseries": 0
+}

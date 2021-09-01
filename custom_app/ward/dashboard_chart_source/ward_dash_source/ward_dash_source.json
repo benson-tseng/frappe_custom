@@ -1,0 +1,13 @@
+{
+ "creation": "2021-08-13 17:01:15.475175",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2021-08-13 17:01:15.475175",
+ "modified_by": "Administrator",
+ "module": "Ward",
+ "name": "ward_dash_source",
+ "owner": "Administrator",
+ "source_name": "ward_dash_source",
+ "timeseries": 0
+}
