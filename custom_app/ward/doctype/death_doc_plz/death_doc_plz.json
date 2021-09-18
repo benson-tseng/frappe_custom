@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "format:{pname}-{######}",
+ "creation": "2021-09-11 18:32:28.208846",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "indate",
+  "pname",
+  "birthday",
+  "age",
+  "diagnosisengname"
+ ],
+ "fields": [
+  {
+   "fieldname": "indate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "INDATE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PNAME",
+   "reqd": 1
+  },
+  {
+   "fieldname": "birthday",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "BIRTHDAY",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "AGE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "diagnosisengname",
+   "fieldtype": "Link",
+   "label": "DIAGNOSISENGNAME",
+   "options": "Cause Of Death",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-11 18:32:28.208846",
+ "modified_by": "Administrator",
+ "module": "Ward",
+ "name": "Death Doc plz",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

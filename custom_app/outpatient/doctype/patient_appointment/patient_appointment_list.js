@@ -1,7 +1,11 @@
+frappe.require([
+    '/assets/custom_app/js/example.js',
+]);
+
 frappe.listview_settings['Patient Appointment'] = {
 	onload: function(listview) {
 		listview.page.add_menu_item(__("HAPPY:D "), function() {
-			console.log(123)
+			greet_user()
 		});
 	}
 };

@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "creation": "2021-09-07 13:42:15.216189",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "hospitalcode",
+  "yearmonth",
+  "birthday",
+  "age",
+  "outdate",
+  "sex",
+  "deptcode"
+ ],
+ "fields": [
+  {
+   "fieldname": "hospitalcode",
+   "fieldtype": "Data",
+   "label": "HospitalCode"
+  },
+  {
+   "fieldname": "yearmonth",
+   "fieldtype": "Data",
+   "label": "YearMonth"
+  },
+  {
+   "fieldname": "deptcode",
+   "fieldtype": "Data",
+   "label": "DEPTCODE"
+  },
+  {
+   "fieldname": "birthday",
+   "fieldtype": "Data",
+   "label": "BIRTHDAY"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "AGE"
+  },
+  {
+   "fieldname": "outdate",
+   "fieldtype": "Data",
+   "label": "OUTDATE"
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Data",
+   "label": "SEX"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-07 15:06:40.244867",
+ "modified_by": "Administrator",
+ "module": "Ward",
+ "name": "test_import",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

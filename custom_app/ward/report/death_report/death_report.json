@@ -1,0 +1,29 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2021-09-11 16:44:05.632248",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2021-09-11 18:35:02.926479",
+ "modified_by": "Administrator",
+ "module": "Ward",
+ "name": "Death Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Death Doc plz",
+ "report_name": "Death Report",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "System Manager"
+  }
+ ]
+}

@@ -11,21 +11,6 @@ monthUpAry = ["Jan.", "Feb.", "Mar.", "Apr.", "May.",
 
 hospital = ["A Hospital", "B Hospital", "C Hospital", "D Hospital"]
 
-# def execute(filters=None):
-# 	columns, data = [{
-#       "fieldname": "xAxisField",
-#       "fieldtype": "Int",
-#       "label": "X-Axis",
-#       "width": 100
-#     },
-#     {
-#       "fieldname": "yAxisField",
-#       "fieldtype": "Currency",
-#       "label": "Y-Axis",
-#       "width": 100
-#     }], [123,111]
-# 	return columns, data
-
 
 def query():
     data = frappe.db.get_list('Patient Appointment', fields=[
@@ -90,15 +75,12 @@ def get_data(data, fltr):
 def get_chart(data, columns, fltr):
 
     if fltr['chartType'] == 'pie':
-
         countAry = []
         for i in monthAry:
             sum = []
             for k in range(4):
                 sum.append(data[k][i])
             countAry.append({'name': i, 'values': sum})
-
-        frappe.logger().debug(countAry)
 
         chart = {
             'data': {
@@ -108,6 +90,7 @@ def get_chart(data, columns, fltr):
             },
             'type': 'pie'
         }
+
     elif fltr['chartType'] == 'line':
 
         countAry = [[], [], [], []]
@@ -119,9 +102,6 @@ def get_chart(data, columns, fltr):
         datasets = []
         for i in range(len(hospital)):
             datasets.append({'name': hospital[i], 'values': countAry[i]})
-
-        frappe.logger().debug(datasets)
-        frappe.logger().debug(data)
 
         chart = {
             'data': {
@@ -140,7 +120,7 @@ def execute(filters=None):
 
     columns = get_columns()
     data = get_data(query_result, filters)
-    message = ":D"
+    message = "pie chart have bug"
     chart = get_chart(data, columns, filters)
 
     return columns, data, message, chart
