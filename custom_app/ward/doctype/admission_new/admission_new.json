@@ -1,0 +1,145 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "creation": "2021-09-30 21:20:49.319022",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "yearmonth",
+  "ward_dept",
+  "ward_code",
+  "sec_ward_code",
+  "ward_cat_code",
+  "sec_ward",
+  "ward",
+  "ward_chin_name",
+  "bed_qua",
+  "date",
+  "bed_people",
+  "total_hos_people",
+  "hos_people",
+  "other_ward_people",
+  "in_people",
+  "out_people",
+  "out_hos_people",
+  "period_people"
+ ],
+ "fields": [
+  {
+   "fieldname": "yearmonth",
+   "fieldtype": "Data",
+   "label": "YearMonth"
+  },
+  {
+   "fieldname": "ward_dept",
+   "fieldtype": "Link",
+   "label": "\u75c5\u623f\u79d1\u5225",
+   "options": "Hospital Dept"
+  },
+  {
+   "fieldname": "ward_code",
+   "fieldtype": "Data",
+   "label": "\u75c5\u623f\u4ee3\u78bc"
+  },
+  {
+   "fieldname": "sec_ward_code",
+   "fieldtype": "Data",
+   "label": "\u6b21\u75c5\u623f\u4ee3\u78bc"
+  },
+  {
+   "fieldname": "ward_cat_code",
+   "fieldtype": "Data",
+   "label": "\u75c5\u623f\u985e\u5225\u4ee3\u78bc"
+  },
+  {
+   "fieldname": "sec_ward",
+   "fieldtype": "Data",
+   "label": "\u6b21\u75c5\u623f"
+  },
+  {
+   "fieldname": "ward",
+   "fieldtype": "Data",
+   "label": "\u75c5\u623f"
+  },
+  {
+   "fieldname": "ward_chin_name",
+   "fieldtype": "Data",
+   "label": "\u75c5\u623f\u4e2d\u6587\u540d\u7a31"
+  },
+  {
+   "fieldname": "bed_qua",
+   "fieldtype": "Data",
+   "label": "\u5e8a\u6578"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "\u6838\u5c0d\u5929\u6578\u7528"
+  },
+  {
+   "fieldname": "bed_people",
+   "fieldtype": "Data",
+   "label": "\u4f54\u5e8a\u4eba\u65e5"
+  },
+  {
+   "fieldname": "total_hos_people",
+   "fieldtype": "Data",
+   "label": "\u7e3d\u5165\u9662\u4eba\u6b21"
+  },
+  {
+   "fieldname": "hos_people",
+   "fieldtype": "Data",
+   "label": "\u8fa6\u4f4f\u9662\u624b\u7e8c\u4eba\u6b21"
+  },
+  {
+   "fieldname": "other_ward_people",
+   "fieldtype": "Data",
+   "label": "\u5176\u4ed6\u75c5\u623f\u985e\u5225\u8f49\u5165\u4eba\u6b21"
+  },
+  {
+   "fieldname": "in_people",
+   "fieldtype": "Data",
+   "label": "\u8f49\u5165\u4eba\u6b21"
+  },
+  {
+   "fieldname": "out_people",
+   "fieldtype": "Data",
+   "label": "\u8f49\u51fa\u4eba\u6b21"
+  },
+  {
+   "fieldname": "out_hos_people",
+   "fieldtype": "Data",
+   "label": "\u51fa\u9662\u4eba\u6b21"
+  },
+  {
+   "fieldname": "period_people",
+   "fieldtype": "Data",
+   "label": "\u671f\u9593\u7e3d\u4eba\u65e5"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-30 21:21:23.250517",
+ "modified_by": "Administrator",
+ "module": "Ward",
+ "name": "Admission New",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

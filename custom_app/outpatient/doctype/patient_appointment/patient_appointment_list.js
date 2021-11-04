@@ -1,7 +1,9 @@
+// import a greet_user method
 frappe.require([
     '/assets/custom_app/js/example.js',
 ]);
 
+// create a custom btn on patient appointment list
 frappe.listview_settings['Patient Appointment'] = {
 	onload: function(listview) {
 		listview.page.add_menu_item(__("HAPPY:D "), function() {

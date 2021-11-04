@@ -1,0 +1,23 @@
+{
+ "aggregate_function_based_on": "",
+ "creation": "2021-10-07 11:50:19.314819",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "Death Doc plz",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[]",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "death number",
+ "modified": "2021-10-07 11:53:48.547076",
+ "modified_by": "Administrator",
+ "module": "Ward",
+ "name": "death number",
+ "owner": "Administrator",
+ "report_function": "Sum",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Document Type"
+}

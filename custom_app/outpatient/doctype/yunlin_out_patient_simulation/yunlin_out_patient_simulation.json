@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "creation": "2021-10-29 17:11:59.933164",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pid",
+  "chartno",
+  "area",
+  "gender",
+  "date",
+  "depart"
+ ],
+ "fields": [
+  {
+   "fieldname": "chartno",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ChartNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Area",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Gender",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "depart",
+   "fieldtype": "Data",
+   "label": "Depart",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pid",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PID",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-29 23:17:38.169860",
+ "modified_by": "Administrator",
+ "module": "Outpatient",
+ "name": "Yunlin Out Patient Simulation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -2,24 +2,18 @@
 // For license information, please see license.txt
 /* eslint-disable */
 
-frappe.query_reports["Death Report"] = {
+frappe.query_reports["Admission In Out Report"] = {
 	"filters": [
 		{
-			fieldname: 'diagnosisName',
-			label: __('diagnosis name'),
-			fieldtype: 'Link',
-			options: 'Cause Of Death'
-		},
-		{
-			fieldname: 'chartType',
-			label: __('chart type'),
+			fieldname: 'in_out_date',
+			label: __('出入院日期'),
 			fieldtype: 'Select',
 			options: [
-				{ label: __('Line'), value: 'line' },
-				{ label: __('Pie'), value: 'pie' }
+				{ label: __('入院日期'), value: 'in_date' },
+				{ label: __('出院日期'), value: 'out_date' }
 			],
-			default: 'line'
-		},
+			default: 'in_date'
+		}
 	],
 	after_datatable_render: function (datatable_obj) {
 		$(datatable_obj.wrapper).find(".dt-row").find('input[type=checkbox]').click();
@@ -52,8 +46,6 @@ frappe.query_reports["Death Report"] = {
 							break;
 						}
 					}
-					console.log(entry)
-
 					if (!found) {
 						new_datasets.push(entry);
 					}

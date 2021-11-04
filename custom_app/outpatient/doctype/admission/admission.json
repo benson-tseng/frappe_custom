@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "format:{in_date}-{#######}",
+ "creation": "2021-09-23 17:37:22.764605",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "in_date",
+  "out_date",
+  "in_dept",
+  "out_dept",
+  "out_stat",
+  "main_dr",
+  "total_date",
+  "instructions",
+  "instructions_code",
+  "in_ward",
+  "out_ward"
+ ],
+ "fields": [
+  {
+   "fieldname": "in_date",
+   "fieldtype": "Data",
+   "label": "\u5165\u9662\u65e5\u671f"
+  },
+  {
+   "fieldname": "out_date",
+   "fieldtype": "Data",
+   "label": "\u51fa\u9662\u65e5\u671f"
+  },
+  {
+   "fieldname": "in_dept",
+   "fieldtype": "Link",
+   "label": "\u5165\u9662\u79d1\u5225",
+   "options": "Hospital Dept"
+  },
+  {
+   "fieldname": "out_dept",
+   "fieldtype": "Link",
+   "label": "\u51fa\u9662\u79d1\u5225",
+   "options": "Hospital Dept"
+  },
+  {
+   "fieldname": "out_stat",
+   "fieldtype": "Data",
+   "label": "\u51fa\u9662\u72c0\u614b"
+  },
+  {
+   "fieldname": "main_dr",
+   "fieldtype": "Data",
+   "label": "\u51fa\u9662\u4e3b\u6cbb\u91ab\u751f"
+  },
+  {
+   "fieldname": "total_date",
+   "fieldtype": "Data",
+   "label": "\u4f4f\u9662\u7e3d\u65e5\u6578"
+  },
+  {
+   "fieldname": "instructions",
+   "fieldtype": "Long Text",
+   "label": "\u4e3b\u8a3a\u65b7\u8aaa\u660e"
+  },
+  {
+   "fieldname": "instructions_code",
+   "fieldtype": "Data",
+   "label": "\u4e3b\u8a3a\u65b7\u4ee3\u78bc"
+  },
+  {
+   "fieldname": "in_ward",
+   "fieldtype": "Link",
+   "label": "\u5165\u9662\u75c5\u623f",
+   "options": "Admission Ward"
+  },
+  {
+   "fieldname": "out_ward",
+   "fieldtype": "Link",
+   "label": "\u51fa\u9662\u75c5\u623f",
+   "options": "Admission Ward"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-23 20:41:31.762083",
+ "modified_by": "Administrator",
+ "module": "Outpatient",
+ "name": "Admission",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

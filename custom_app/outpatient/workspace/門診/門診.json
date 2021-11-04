@@ -2,13 +2,11 @@
  "category": "Modules",
  "charts": [
   {
-   "chart_name": "death_line"
-  },
-  {
-   "chart_name": "MED"
+   "chart_name": "outpatient_chart",
+   "label": "outpatient chart"
   }
  ],
- "creation": "2021-08-13 16:40:41.767326",
+ "creation": "2021-10-07 23:16:03.050119",
  "developer_mode_only": 0,
  "disable_user_customization": 0,
  "docstatus": 0,
@@ -19,21 +17,14 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "label": "ward",
+ "label": "\u9580\u8a3a",
  "links": [],
- "modified": "2021-10-15 13:50:43.674115",
+ "modified": "2021-10-15 13:50:25.913901",
  "modified_by": "Administrator",
- "module": "Ward",
- "name": "ward",
+ "module": "Outpatient",
+ "name": "\u9580\u8a3a",
  "owner": "Administrator",
  "pin_to_bottom": 0,
  "pin_to_top": 0,
- "shortcuts": [
-  {
-   "doc_view": "",
-   "label": "ward",
-   "link_to": "ward_doc",
-   "type": "DocType"
-  }
- ]
+ "shortcuts": []
 }

@@ -1,0 +1,58 @@
+{
+ "cards": [
+  {
+   "card": "test"
+  },
+  {
+   "card": "admission outpatient"
+  },
+  {
+   "card": "dept total number"
+  },
+  {
+   "card": "death number"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "MED",
+   "width": "Full"
+  },
+  {
+   "chart": "in_date",
+   "width": "Half"
+  },
+  {
+   "chart": "out_date",
+   "width": "Half"
+  },
+  {
+   "chart": "admission_dept",
+   "width": "Half"
+  },
+  {
+   "chart": "HDEN",
+   "width": "Half"
+  },
+  {
+   "chart": "death_line",
+   "width": "Half"
+  },
+  {
+   "chart": "death_pie",
+   "width": "Half"
+  }
+ ],
+ "creation": "2021-10-05 19:25:39.702553",
+ "dashboard_name": "Admission_report",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2021-10-08 00:11:34.981578",
+ "modified_by": "Administrator",
+ "module": "Ward",
+ "name": "Admission_report",
+ "owner": "Administrator"
+}

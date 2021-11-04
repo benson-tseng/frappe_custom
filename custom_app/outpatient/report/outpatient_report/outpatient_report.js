@@ -22,7 +22,7 @@ frappe.query_reports["Outpatient report"] = {
 					row_name = data[2].content;
 					length = data.length;
 
-					row_values = data.slice(3, length - 1).map(function (column) {
+					row_values = data.slice(3, length).map(function (column) {
 						return column.content;
 					})
 

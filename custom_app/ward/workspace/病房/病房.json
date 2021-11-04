@@ -8,7 +8,7 @@
    "chart_name": "MED"
   }
  ],
- "creation": "2021-08-13 16:40:41.767326",
+ "creation": "2021-10-07 23:22:06.795499",
  "developer_mode_only": 0,
  "disable_user_customization": 0,
  "docstatus": 0,
@@ -19,21 +19,14 @@
  "idx": 0,
  "is_default": 0,
  "is_standard": 1,
- "label": "ward",
+ "label": "\u75c5\u623f",
  "links": [],
- "modified": "2021-10-15 13:50:43.674115",
+ "modified": "2021-10-15 13:50:31.490480",
  "modified_by": "Administrator",
  "module": "Ward",
- "name": "ward",
+ "name": "\u75c5\u623f",
  "owner": "Administrator",
  "pin_to_bottom": 0,
- "pin_to_top": 0,
- "shortcuts": [
-  {
-   "doc_view": "",
-   "label": "ward",
-   "link_to": "ward_doc",
-   "type": "DocType"
-  }
- ]
+ "pin_to_top": 1,
+ "shortcuts": []
 }

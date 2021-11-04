@@ -19,7 +19,7 @@
  "is_standard": 1,
  "label": "outpatient",
  "links": [],
- "modified": "2021-08-20 23:16:34.464203",
+ "modified": "2021-10-15 13:51:01.245464",
  "modified_by": "Administrator",
  "module": "Outpatient",
  "name": "outpatient",
@@ -29,7 +29,7 @@
  "shortcuts": [
   {
    "doc_view": "",
-   "label": "outpatient doctype",
+   "label": "outpatient",
    "link_to": "outpatient_doc",
    "type": "DocType"
   }
